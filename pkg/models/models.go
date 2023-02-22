@@ -15,7 +15,7 @@ type Book struct {
 
 var DB *gorm.DB
 
-var dsn = "postgres://postgres:12345@localhost:5432/test?sslmode=disable"
+var dsn = "postgres://postgres:12345@localhost:5432/postgres?sslmode=disable"
 
 func ConnectToDB() {
 
