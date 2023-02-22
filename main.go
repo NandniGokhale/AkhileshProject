@@ -13,6 +13,7 @@ func main() {
 
 	router.GET("/books", controller.GetAllBooks)
 	router.GET("/books/test", controller.GetAllBooks)
+	router.GET("/books/test/build", controller.GetAllBooks)
 	router.GET("/books/:id", controller.GetBookById)
 	router.POST("/books", controller.CreateBooks)
 	router.PATCH("/books/:id", controller.UpdateBook)
